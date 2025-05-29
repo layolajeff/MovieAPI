@@ -15,7 +15,7 @@ async function searchMovie() {
       const movieDiv = document.createElement("div");
       movieDiv.classList.add("movie");
       movieDiv.innerHTML = `
-        <img src="${movie.Poster !== "N/A" ? movie.Poster : 'https://via.placeholder.com/200x300?text=No+Image'}" alt="${movie.Title}" />
+        <img src="${movie.Poster !== "N/A" ? movie.Poster : 'https://via.placeholder.com/200x300?text=No+Image'}"/>
         <h3>${movie.Title}</h3>
         <p>${movie.Year}</p>
       `;

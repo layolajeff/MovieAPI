@@ -4,20 +4,30 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Movie Search App</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css"/>
   <script src="script.js"></script>
 </head>
 <body>
-  <h1>Movie Search App</h1>
-  <input type="text" id="searchInput" placeholder="Search for a movie..." />
-  <button onclick="searchMovie()">Search</button>
+     <section id="landing-page">
+        <figure>
+            <img id="movie-logo" src="./Assests/Screenshot 2025-05-29 at 14-10-18 Cinema background concept movie theater object on red curtain background and movie time with electric bulbs frame vector illustration Premium Vector.png" alt="">
+        </figure>
+     </section>
 
-  <div class="movie-container" id="movieContainer"></div>
-    <div id="movieModal" class="modal">
-    <div class="modal-content">
-      <span class="close" onclick="closeModal()">&times;</span>
-      <div id="modalBody"></div>
-    </div>
-  </div>
+     <header>
+        <h1>Welcome! Let's search for a movie together</h1>
+    </header>
+        <section>
+            <input type="text" id="searchInput" placeholder="Search for a movie" />
+            <button onclick="searchMovie()">Search</button>
+            
+            <div class="movie__container" id="movieContainer"></div>
+            <div id="movieModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal()">&times;</span>
+                    <div id="modalBody"></div>
+                </div>
+            </div>
+        </section>
 </body>
 </html>

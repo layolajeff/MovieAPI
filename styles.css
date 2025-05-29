@@ -1,6 +1,11 @@
 
 /* BODY */
 
+#movie-logo {
+   max-width: 100%;
+
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #121212;
@@ -26,7 +31,7 @@ button {
   cursor: pointer;
 }
 
-.movie-container {
+.movie__container {
   margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
