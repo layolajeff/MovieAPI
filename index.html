@@ -14,21 +14,23 @@
         </figure>
      </section>
      <header>
-        <h1>Welcome! Let's search for a movie together</h1>
+        
     </header>
         <section>
+             <header>
+                 <h1>Welcome! Let's search for a movie together</h1>
+            </header>
             <input type="text" id="searchInput" placeholder="Search for a movie"/>
             <select id="typeFilter">
-  <option value="">All</option>
-  <option value="movie">Movie</option>
-  <option value="series">Series</option>
-  <option value="episode">Episode</option>
-</select>
-<select id="sortOrder">
-  <option value="none">Sort by Year</option>
-  <option value="asc">Oldest to Newest</option>
-  <option value="desc">Newest to Oldest</option>
-</select>
+                <option value="">All</option>
+                <option value="movie">Movie</option>
+                <option value="series">Series</option>
+            </select>
+            <select id="sortOrder">
+                <option value="none">Sort by Year</option>
+                <option value="asc">Oldest to Newest</option>
+                <option value="desc">Newest to Oldest</option>
+            </select>
             <button onclick="searchMovie()">Search</button>
             <div class="movie__container" id="movieContainer"></div>
             <div id="movieModal" class="modal">

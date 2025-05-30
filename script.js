@@ -4,7 +4,7 @@
 async function searchMovie() {
   const query = document.getElementById("searchInput").value;
   const type = document.getElementById("typeFilter").value;
-   const apiKey = "d2d06fc3"; 
+  const apiKey = "d2d06fc3"; 
   const sortOrder = document.getElementById("sortOrder").value;
   const container = document.getElementById("movieContainer");
   container.innerHTML = "";
