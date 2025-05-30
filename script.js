@@ -53,6 +53,7 @@ async function searchMovie() {
         movieDiv.addEventListener("click", () => showMovieDetails(movie.imdbID));
         container.appendChild(movieDiv);
       });
+      
     } else {
       const message = document.createElement("p");
       message.textContent = "No results found.";
